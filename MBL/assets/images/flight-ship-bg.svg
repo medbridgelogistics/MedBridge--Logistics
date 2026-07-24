@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Flight and ship background illustration">
+  <rect width="1600" height="900" fill="#eef7fe"/>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <circle cx="220" cy="170" r="150" fill="#d94a4a" opacity="0.12"/>
+  <circle cx="1380" cy="710" r="210" fill="#2f7ebd" opacity="0.13"/>
+  <rect x="130" y="150" width="450" height="260" rx="32" fill="#ffffff" opacity="0.78"/>
+  <path d="M190 310h260" stroke="#2f7ebd" stroke-width="10" stroke-linecap="round"/>
+  <path d="M220 280l80-40h60l-70 40z" fill="#d94a4a"/>
+  <path d="M360 280l90-35h65l-90 35z" fill="#2f7ebd"/>
+  <rect x="190" y="340" width="220" height="16" rx="8" fill="#9fc7e8"/>
+  <rect x="190" y="366" width="180" height="14" rx="7" fill="#9fc7e8"/>
+  <rect x="860" y="190" width="500" height="320" rx="34" fill="#ffffff" opacity="0.8"/>
+  <path d="M930 420c80-56 155-84 255-84 105 0 180 30 275 92" stroke="#2f7ebd" stroke-width="10" fill="none" opacity="0.45"/>
+  <path d="M950 350l70-30h100l-70 30z" fill="#d94a4a"/>
+  <path d="M1040 350l120-28h90l-110 28z" fill="#2f7ebd"/>
+  <rect x="1060" y="392" width="170" height="14" rx="7" fill="#9fc7e8"/>
+  <rect x="260" y="610" width="1080" height="100" rx="28" fill="#ffffff" opacity="0.65"/>
+  <path d="M340 648c125-90 220-132 370-132 145 0 265 52 395 132" stroke="#2f7ebd" stroke-width="8" fill="none" opacity="0.5"/>
+  <path d="M930 646c70-48 145-70 237-70 90 0 170 20 248 58" stroke="#d94a4a" stroke-width="8" fill="none" opacity="0.5"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5fbff"/>
+      <stop offset="100%" stop-color="#e4f2fb"/>
+    </linearGradient>
+  </defs>
+</svg>

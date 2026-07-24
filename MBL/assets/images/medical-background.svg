@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Medical background illustration">
+  <rect width="1600" height="900" fill="#f3f9fe"/>
+  <rect x="0" y="0" width="1600" height="900" fill="url(#g)"/>
+  <g opacity="0.16" fill="#2f7ebd">
+    <circle cx="220" cy="180" r="140"/>
+    <circle cx="1360" cy="740" r="220"/>
+    <circle cx="1280" cy="220" r="90"/>
+  </g>
+  <rect x="170" y="160" width="360" height="220" rx="28" fill="#ffffff" opacity="0.85"/>
+  <rect x="210" y="210" width="120" height="120" rx="22" fill="#d94a4a" opacity="0.9"/>
+  <rect x="350" y="208" width="140" height="18" rx="9" fill="#2f7ebd"/>
+  <rect x="350" y="242" width="110" height="14" rx="7" fill="#86bde8"/>
+  <rect x="350" y="270" width="125" height="14" rx="7" fill="#86bde8"/>
+  <rect x="1000" y="220" width="320" height="190" rx="28" fill="#ffffff" opacity="0.8"/>
+  <path d="M1110 280v70h-70v40h70v70h40v-70h70v-40h-70v-70z" fill="#d94a4a"/>
+  <rect x="230" y="620" width="1140" height="95" rx="28" fill="#ffffff" opacity="0.62"/>
+  <path d="M320 640c60-58 143-90 245-90 102 0 197 36 300 90" stroke="#2f7ebd" stroke-width="8" fill="none" opacity="0.45"/>
+  <path d="M900 640c70-54 145-80 240-80 62 0 126 12 190 40" stroke="#d94a4a" stroke-width="8" fill="none" opacity="0.45"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#edf7fe"/>
+      <stop offset="100%" stop-color="#dcecf7"/>
+    </linearGradient>
+  </defs>
+</svg>

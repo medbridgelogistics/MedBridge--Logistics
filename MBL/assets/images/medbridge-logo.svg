@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="MedBridge Logistics logo">
+  <rect width="160" height="160" rx="30" fill="#0f2a44"/>
+  <path d="M42 112c20-37 39-56 76-56 20 0 33 8 41 20l-27 16c-4-7-10-10-16-10-17 0-27 12-42 42l-32-12z" fill="#2aa8a7"/>
+  <path d="M62 58h36c10 0 18 8 18 18v8H62v-26z" fill="#1f6fb2"/>
+  <path d="M60 88h40l12 24H48l12-24z" fill="#ffffff" opacity="0.9"/>
+</svg>

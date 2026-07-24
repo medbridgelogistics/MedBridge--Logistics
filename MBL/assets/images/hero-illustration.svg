@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" role="img" aria-label="Medical logistics illustration">
+  <rect width="700" height="500" rx="32" fill="#eff8fc"/>
+  <rect x="80" y="100" width="540" height="280" rx="24" fill="#ffffff" stroke="#cfe8f6" stroke-width="2"/>
+  <rect x="120" y="140" width="180" height="120" rx="16" fill="#1f6fb2"/>
+  <rect x="330" y="140" width="250" height="24" rx="12" fill="#2aa8a7"/>
+  <rect x="330" y="182" width="180" height="16" rx="8" fill="#d4ecf6"/>
+  <rect x="330" y="214" width="220" height="16" rx="8" fill="#d4ecf6"/>
+  <rect x="120" y="290" width="460" height="54" rx="16" fill="#f4f6f8"/>
+  <circle cx="170" cy="317" r="12" fill="#1f6fb2"/>
+  <circle cx="220" cy="317" r="12" fill="#2aa8a7"/>
+  <circle cx="270" cy="317" r="12" fill="#0f2a44"/>
+  <path d="M520 330c25-34 36-67 38-105" stroke="#0f2a44" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M500 340c35-8 68-28 92-48" stroke="#1f6fb2" stroke-width="10" stroke-linecap="round" fill="none"/>
+</svg>

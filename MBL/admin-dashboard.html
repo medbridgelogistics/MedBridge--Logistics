@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard | MedBridge Logistics</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body data-page="admin-dashboard">
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="index.html">
+          <img src="assets/images/medbridge-logo.svg" alt="MedBridge Logistics logo" />
+          <span>MedBridge Logistics</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="tracking.html">Tracking</a>
+          <a href="admin-login.html" class="nav-cta active">Admin</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="dashboard-page">
+      <section class="section">
+        <div class="container">
+          <div class="dashboard-toolbar">
+            <div>
+              <p class="eyebrow">Operations control</p>
+              <h1>Shipment operations dashboard</h1>
+            </div>
+            <div class="toolbar-actions">
+              <button class="btn btn-secondary" id="export-data">Export JSON</button>
+              <label class="btn btn-secondary file-button">
+                Import JSON
+                <input type="file" id="import-data" accept="application/json" hidden />
+              </label>
+              <button class="btn btn-primary" id="add-shipment-btn">Add Shipment</button>
+            </div>
+          </div>
+
+          <div class="stats-grid dashboard-stats">
+            <div class="stat-card">
+              <strong id="total-shipments">0</strong>
+              <span>Total shipments</span>
+            </div>
+            <div class="stat-card">
+              <strong id="paid-count">0</strong>
+              <span>Paid</span>
+            </div>
+            <div class="stat-card">
+              <strong id="pending-count">0</strong>
+              <span>Pending</span>
+            </div>
+            <div class="stat-card">
+              <strong id="customs-count">0</strong>
+              <span>Awaiting customs</span>
+            </div>
+          </div>
+
+          <div class="dashboard-grid">
+            <section class="panel">
+              <div class="panel-header">
+                <h2>Shipment management</h2>
+                <input id="search-input" type="search" placeholder="Search tracking code or destination" />
+              </div>
+              <div class="table-wrap">
+                <table class="shipment-table">
+                  <thead>
+                    <tr>
+                      <th>Tracking</th>
+                      <th>Status</th>
+                      <th>Destination</th>
+                      <th>ETA</th>
+                      <th>Payment</th>
+                      <th>Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody id="shipment-table-body"></tbody>
+                </table>
+              </div>
+            </section>
+
+            <aside class="panel">
+              <div class="panel-header">
+                <h2>Shipment editor</h2>
+              </div>
+              <form id="shipment-form" class="form-card compact-form">
+                <input id="shipment-id" type="hidden" />
+                <label>
+                  Tracking code
+                  <input id="tracking-code-input" required />
+                </label>
+                <label>
+                  Status
+                  <input id="status-input" required />
+                </label>
+                <label>
+                  Current location
+                  <input id="location-input" required />
+                </label>
+                <label>
+                  Destination
+                  <input id="destination-input" required />
+                </label>
+                <label>
+                  ETA
+                  <input id="eta-input" required />
+                </label>
+                <label>
+                  Payment status
+                  <select id="payment-status-input">
+                    <option value="Paid">Paid</option>
+                    <option value="Partially Paid">Partially Paid</option>
+                    <option value="Unpaid">Unpaid</option>
+                  </select>
+                </label>
+                <label>
+                  Outstanding balance
+                  <input id="balance-input" />
+                </label>
+                <label>
+                  Notes
+                  <textarea id="notes-input" rows="3"></textarea>
+                </label>
+                <button class="btn btn-primary" type="submit">Save Shipment</button>
+              </form>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-shell">
+        <p>© 2009-2026 MedBridge Logistics. Premium medical logistics, built for healthcare.</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
